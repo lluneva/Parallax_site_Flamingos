@@ -1,0 +1,149 @@
+.body,
+.html {
+  margin: 0;
+  font-size: 1.1rem;
+  color: teal;
+}
+
+.container {
+  width: 65%;
+  text-align: center;
+}
+
+
+.header {
+  background-image: url("images/leaves1_opacity.png");
+  position: relative;
+  height: 500px;
+  /* opacity: 0.45; */
+  background-attachment: fixed;
+  margin-top: 0;
+  overflow: hidden;
+  ;
+}
+
+
+
+.logo {
+
+  background-image: url("images/logo.png");
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  background-repeat: no-repeat
+}
+
+.fore-bird {
+  background-image: url("images/Flamingoes.png");
+  height: 428px;
+  width: 400px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 70%;
+  transform: scale(1)
+}
+
+.back-bird {
+  background-image: url("images/butterfly.png");
+  height: 300px;
+  width: 430px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 2%;
+}
+
+
+hr {
+  width: 50%;
+  color: rgb(15, 68, 68)
+}
+
+p.content {
+  width: 50%;
+  margin-left: 25%;
+  font-family: "Varela Round"
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Sacramento";
+
+}
+
+h1 {
+  color: rgb(184, 72, 90);
+  font-size: 3rem;
+  margin-top: 3%;
+}
+
+h2 {
+  color: darkcyan;
+  font-size: 2rem
+}
+
+p {
+  font-family: "Varela-round";
+  font-size: 1rem;
+  color: teal;
+  line-height: 2;
+}
+
+.section-title {
+  margin-top: 10%
+}
+
+.product-picture {
+  opacity: 0.3;
+  position: relative;
+  margin: 10px;
+  max-height: 250px;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out
+}
+
+.is-showing {
+  opacity: 1;
+  transform: translateX(0)
+}
+
+
+.large-window {
+  height: 500px;
+  width: 500px;
+  background-image: url(images/flamingo-blues.jpg);
+  background-attachment: fixed;
+  border-radius: 50%;
+  margin: 10% 20%;
+}
+
+
+/* .paragraph-row {
+  width: 80%;
+  margin: 30px auto 80px auto
+}
+
+
+.first-img {
+  float: left;
+  margin-right: 40px
+}
+
+.second-img {
+  float: right;
+  margin-left: 40px;
+}
+
+.first-img+p {
+  text-align: left;
+  clear: left;
+}
+
+.second-img+p {
+  text-align: right;
+  clear: right;
+}
+*/
